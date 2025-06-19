@@ -28,8 +28,23 @@
   background:#FFE97B;
   width:100%;
   height:100vh;
-  padding-top: 43.13vh;
-  padding-bottom: 25vh;
+  padding-top: 30vh;
+}
+
+#efancoinimg_box img {
+  position:relative;
+  z-index:3;
+  left:15vw;
+  top:-40vw;
+  width:auto;
+  height:120vw;
+}
+
+#efancoinimg_box {
+  background: red;
+
+  width:0;
+  height:0;
 }
 
 #tokenomicsblock {
