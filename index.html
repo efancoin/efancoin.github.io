@@ -3,27 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="scriptvideo.js"></script>
-    <meta http-equiv="Content-Security-Policy" content="script-src 'self' scriptvideo.js;">
+    <script src="https://raw.githubusercontent.com/efancoin/efancoinru_js/refs/heads/main/script.js"></script>
+    <meta http-equiv="Content-Security-Policy" content="script-src 'self' https://raw.githubusercontent.com/efancoin/efancoinru_js/refs/heads/main/script.js;">
 	<link rel="stylesheet" href="/styles.css">
     <title>$EFAN MEMECOIN</title>
 </head>
-<body onclick="let video = document.querySelector('#videoplayer video');
-let playerframe = document.querySelector('#videoplayer');
-let playerbutton = document.querySelector('#videoplayer #playbutton');
-playerframe.addEventListener('click', () => {
-	if (video.paused) {
-		console.log('clckon')
-		video.play();
-		playerbutton.style.opacity = '0';
-		video.style.opacity = '1';
-	} else {
-		console.log('clckoff')
-		video.pause();
-		playerbutton.style.opacity = '1';
-		video.style.opacity = '0.5';
-	}
-});">
+<body>
     <div id="container">
     <div id="header">
         <p>$EFAN</p>
