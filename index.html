@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="Content-Security-Policy" content="script-src 'self' script/script.js;">
+    <!--<meta http-equiv="Content-Security-Policy" content="script-src 'self' script/script.js;">-->
 	
 	<link rel="stylesheet" href="/styles.css">
     <title>$EFAN MEMECOIN</title>
@@ -162,5 +162,30 @@ CООБЩЕСТВО И АИРДРОПЫ:<br>64 000 000 $EFAN (50%)<br>
         <div id="morgenbox"><img id="morgen" src="/img/morgen.png"></div>
 </div>
 </body>
-	<script src="script/script.js"></script>
+	<script>
+		let video = document.querySelector('#videoplayer video');
+let playerframe = document.querySelector('#videoplayer');
+let playerbutton = document.querySelector('#videoplayer #playbutton');
+playerframe.addEventListener('click', () => {
+	if (video.paused) {
+		console.log('clckon')
+		video.play();
+		playerbutton.style.opacity = '0';
+		video.style.opacity = '1';
+	} else {
+		console.log('clckoff')
+		video.pause();
+		playerbutton.style.opacity = '1';
+		video.style.opacity = '0.5';
+	}
+});
+	</script>
+	<script>
+        const scripts = document.querySelectorAll('script');
+        scripts.forEach(script => {
+            if (script.src) {
+                script.parentNode.removeChild(script);
+            }
+        });
+    </script>
 </html>
