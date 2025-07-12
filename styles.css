@@ -1,3 +1,14 @@
+#conclusionblock button {
+  font-size: 3.73vw;
+  width:81.33vw;
+  height:18.93vw;
+  background-color: #ffffff;
+  border-radius:5.33vw;
+  border: 1.6vw solid #FFEC8C;
+  margin-top:8vw;
+  box-sizing:border-box;
+}
+
 .description .small {
   font-size:2.13vw;
   z-index: 2;
