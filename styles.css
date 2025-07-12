@@ -1,5 +1,5 @@
 #conclusionblock button:hover {
-  border: 1.6vw solid #FFEC8C;
+  border: 0.1vw solid #ffffff;
 }
 #conclusionblock button {
   font-size: 3.73vw;
@@ -7,9 +7,10 @@
   height:18.93vw;
   background-color: #ffffff;
   border-radius:5.33vw;
-  border: 1.6vw solid #ffffff;
+  border: 1.6vw solid #FFE97B;
   margin-top:8vw;
   box-sizing:border-box;
+  transition: border 0.3s ease-in-out;
 }
 
 .description .small {
