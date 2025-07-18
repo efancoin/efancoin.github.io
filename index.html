@@ -1,0 +1,12 @@
+<script>
+  function checkDevice() {
+            const isMobile = /Mobi|Android|iPhone/i.test(navigator.userAgent);
+            
+            if (isMobile) {
+                window.location.href = "https://efancoin.github.io/indexMobile.html";
+            } else {
+                window.location.href = "https://efancoin.github.io/indexDesktop.html";
+            }
+        }
+        window.onload = checkDevice;
+</script>
