@@ -1,0 +1,317 @@
+#conclusionblock button:hover {
+  border: 0.1vw solid #ffffff;
+}
+#conclusionblock button {
+  font-size: 2.05vw;
+  width:40vw;
+  height:9.5vw;
+  background-color: #ffffff;
+  border-radius:3vw;
+  border: 1.6vw solid #FFE97B;
+  margin-top:3vw;
+  box-sizing:border-box;
+  transition: border 0.3s ease-in-out;
+}
+
+#conclusionblock {
+  float:left;
+  width:100%;
+  background-color: #FFE97B;
+  padding-top:45vh;
+  padding-bottom:20vh;
+}
+
+#morgenbox img {
+  position:relative;
+  top:-13.5vw;
+  width:38vw;
+  height:auto;
+}
+
+#morgenbox {
+  width:0;
+  height:0;
+}
+
+#tokenomicsblock .content {
+  padding-left:9.88vw;
+  padding-right:9.88vw;
+}
+
+#efancoinimg_box img {
+  position: absolute;
+  right: 0;
+  top: 50%; 
+  transform: translateY(-50%);
+  width: 50vw; 
+  height: auto; 
+}
+#efancoinimg_box {
+  position:relative;
+}
+
+#tokenomicsblock {
+  background-color:#FFE97B;
+
+  padding-top:4.39vw;
+  margin-top:4.39vw;
+  float:left;
+  width:100%;
+  height:47.66vw;
+}
+
+#roadmaplist .elem {
+  box-sizing: border-box;
+  padding-top:0.8vw;
+  padding-bottom:1.46vw;
+  padding-left:2.2vw;
+  padding-right:5.86vw;
+  background-color:#FFE97B;
+  width:100%;
+  display:inline-block;
+  border-radius:1.46vw;
+  border:0.44vw solid #FFEC8C;
+}
+
+#roadmapblock .content {
+  padding-left:9.88vw;
+  padding-right:9.88vw;
+}
+#roadmapblock {
+  padding-top:4.39vw;
+  float:left;
+}
+
+.face#efanus img {
+  filter: brightness(150%) saturate(125%);
+  display:block;
+  position:relative;
+  top:23%;
+  width:100%;
+}
+.face#vanya img {
+  background-color: none;
+  filter: brightness(150%) saturate(125%);
+
+  display:block;
+  position:relative;
+  top:-0.5vw;
+  left:-0.8vw;
+  width:120%;
+  object-fit: fill;
+}
+.face#victora img {
+  filter: brightness(150%) saturate(125%);
+  display:block;
+  position:relative;
+  width:125%;
+  top:-0.5vw;
+  left:-1.5vw;
+}
+.face#creator img{
+  display:block;
+  position:relative;
+  width:100%;
+}
+#teamlist .elem .face img {
+}
+#teamlist .elem .face {
+  overflow: hidden;
+  background-color: #ffffff;
+  border-radius: 100vw;
+  width:10.98vw;
+  height:10.98vw;
+}
+#teamlist .elem {
+  display:inline-block;
+  background-color:none;
+  width:23.72vw;
+  padding-top:0.73vw;
+  padding-bottom:0.73vw;
+}
+#teamlist {
+  position:relative;
+  background-color:#FFEC8C;
+  width:100%;
+  float:left;
+}
+
+#efanchik_box #efanchik {
+  position: relative;
+  top:-22.41vw;
+  left:0vw;
+  height:52.12vw;
+  width:auto;
+}
+#efanchik_box {
+  width:0;
+  height:0;
+}
+#teamblock .content {
+  padding-left:9.88vw;
+  padding-right:9.88vw;
+}
+#teamblock {
+  position:relative;
+  background-color: #FFE97B;
+  width:100%;
+  height:29.7vw;
+  margin-top:4.25vw;
+  float:left;
+}
+
+#conceptblock .content {
+  padding-left:9.88vw;
+  padding-right:9.88vw;
+}
+#conceptblock {
+  background-color: none;
+  text-align: right;
+}
+
+#efancoingif img {
+  position:absolute;
+
+  top:9.22vw;
+  left:69.4vw;
+  width:20.57vw;
+  height:20.57vw;
+}
+#efancoingif {
+  width:0;
+  height:0;
+}
+.mainblock .content {
+  background-color:none;
+  
+  padding-left:9.88vw;
+  padding-right:9.88vw;
+}
+.mainblock {
+  background:linear-gradient(0deg, rgba(255, 255, 255, 1) 0%, rgba(255, 233, 123, 1) 25%);
+  height:44.29vw;
+  padding-top:9.22vw;
+}
+
+.description .small {
+  float:left;
+  font-size:1.02vw;
+}
+.description {
+  color:#00000080;
+  font-size:2.05vw;
+  padding-top:1.10vw;
+}
+
+.right {
+  float:right;
+  text-align:right;
+}
+
+.left {
+  float:left;
+  text-align:left;
+}
+
+.title {
+  font-size:3.51vw;
+}
+
+#header ul li.pad {
+  margin-left:0.44vw;
+}
+#header ul li {
+  font-family: 'InterSemiBold';
+  background-color:none;
+  display:inline-block;
+  color:#000000;
+  height:1.76vw;
+  padding:0 0.44vw;
+}
+#header ul {
+  background-color:none;
+  
+  margin-left:9.88vw;
+  float:right;
+  font-size:1.17vw;
+}
+#header p {
+  background-color:none;
+  
+  float:left;
+  margin-left:9.88vw;
+  font-size:1.46vw;
+}
+
+#header .content * {
+  display:inline-block;
+  line-height:1.76vw;
+}
+#header .content {
+  background-color:none;
+  position:relative;
+  top:1.68vw;
+  width:100%;
+  height:1.76vw;
+}
+#header {
+  position:fixed;
+  z-index:10;
+  box-sizing:border-box;
+  width:100%;
+  height:4.98vw;
+  background-color:#FFE97B;
+}
+
+
+#videoplayer #playbutton img {
+  position: relative;
+  top:23%;
+  left:5%;
+}
+
+#videoplayer #playbutton {
+  background:#FFE97B;
+  z-index: 2;
+  position:relative;
+  top:-15.52vw;
+  width:7.32vw;
+  height:7.32vw;
+  border-radius:1000vw;
+}
+
+#videoplayer video {
+  background: #00000080;
+  opacity:50%;
+
+  width:100%;
+  height:23.72vw;
+
+  border-radius:0.73vw;
+}
+#videoplayer {
+  background:none;
+  float:left;
+  width:48.32vw;
+  height:23.72vw;
+  margin-top:1.46vw;
+}
+
+
+* {
+  font-family: "InterBlack";
+  padding:0;
+  margin:0;
+}
+@font-face {
+    font-family: 'InterSemiBold';
+    src: url('fonts/Inter-SemiBold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'InterBlack';
+    src: url('fonts/Inter-Black.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
