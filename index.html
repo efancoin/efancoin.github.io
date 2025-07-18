@@ -191,5 +191,15 @@ playerframe.addEventListener('click', () => {
                 script.parentNode.removeChild(script);
             }
         });
+
+function checkDevice() {
+    const isMobile = /Mobi|Android/i.test(navigator.userAgent);
+    
+    if (isMobile) {
+        window.location.href = "https://google.com";
+    }
+}
+window.onload = checkDevice;
+
     </script>
 </html>
