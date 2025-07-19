@@ -151,6 +151,17 @@ CООБЩЕСТВО И АИРДРОПЫ: 64 000 000 $EFAN (50%)<br>
             }
         });
 
+function checkWindowSize() {
+    var width = window.innerWidth;
+    var height = window.innerHeight;
+
+    if (height > width) {
+        window.location.href = "https://efancoin.ru/indexMobile.html";
+    } else {
+        console.log('pc');
+    }
+}
+    
 let video = document.querySelector('#videoplayer video');
 let playerframe = document.querySelector('#videoplayer');
 let playerbutton = document.querySelector('#videoplayer #playbutton');
@@ -194,6 +205,8 @@ document.getElementById('to_down').addEventListener('click', function() {
     const target = document.getElementById('target_down');
     target.scrollIntoView({ behavior: 'smooth' });
 });
+
+    setInterval(checkWindowSize, 5000);
 </script>
 </body>
 </html>
