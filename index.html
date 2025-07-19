@@ -1,18 +1,18 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-  <script>
-  function checkDevice() {
-            const isMobile = /Mobi|Android|iPhone/i.test(navigator.userAgent);
-            
-            if (isMobile) {
-                window.location.href = "https://efancoin.github.io/indexMobile.html";
-            } else {
-                window.location.href = "https://efancoin.github.io/indexDesktop.html";
-            }
-        }
-        window.onload = checkDevice;
-</script>
+  <script>function checkWindowSize() {
+    var width = window.innerWidth;
+    var height = window.innerHeight;
+
+    if (height > width) {
+        window.location.href = "https://efancoin.ru/indexMobile.html";
+    } else {
+        window.location.href = "https://efancoin.ru/indexDesktop.html";
+    }
+}
+  checkWindowSize();
+  </script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title></title>
